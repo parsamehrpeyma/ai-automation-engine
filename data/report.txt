@@ -1,0 +1,18 @@
+
+=== AUTOMATION REPORT ===
+
+Raw Text:
+SalAm    man  paRSAM.
+daram  AUTOmation   yad   migiram.
+
+
+Cleaned Text:
+salam man parsam. daram automation yad migiram.
+
+Characters: 47
+Words: 7
+
+=== RANDOM JOKE FROM API ===
+Why are fish so smart?
+Because they live in schools!
+
