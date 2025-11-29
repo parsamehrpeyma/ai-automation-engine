@@ -101,7 +101,7 @@ ai-automation-engine/
 
 Clone the project:
 
-git clone https://github.com/YOUR_USERNAME/ai-automation-engine.git
+git clone https://github.com/parsamehrpeyma/ai-automation-engine.git
 cd ai-automation-engine
 
 
