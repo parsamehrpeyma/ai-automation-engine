@@ -1,0 +1,160 @@
+index,url,line
+1,https://www.python.org/,Skip to content
+2,https://www.python.org/,Python
+3,https://www.python.org/,PSF
+4,https://www.python.org/,Docs
+5,https://www.python.org/,PyPI
+6,https://www.python.org/,Jobs
+7,https://www.python.org/,Community
+8,https://www.python.org/,Donate
+9,https://www.python.org/,Search This Site
+10,https://www.python.org/,GO
+11,https://www.python.org/,Socialize
+12,https://www.python.org/,About
+13,https://www.python.org/,Downloads
+14,https://www.python.org/,Documentation
+15,https://www.python.org/,Community
+16,https://www.python.org/,Success Stories
+17,https://www.python.org/,News
+18,https://www.python.org/,Events
+19,https://www.python.org/,>_
+20,https://www.python.org/,Launch Interactive Shell
+21,https://www.python.org/,# Python 3: Fibonacci series up to n
+22,https://www.python.org/,>>> def fib(n):
+23,https://www.python.org/,">>>     a, b = 0, 1"
+24,https://www.python.org/,>>>     while a < n:
+25,https://www.python.org/,">>>         print(a, end=' ')"
+26,https://www.python.org/,">>>         a, b = b, a+b"
+27,https://www.python.org/,>>>     print()
+28,https://www.python.org/,>>> fib(1000)
+29,https://www.python.org/,0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987
+30,https://www.python.org/,Functions Defined
+31,https://www.python.org/,"The core of extensible programming is defining functions. Python allows mandatory and optional arguments, keyword arguments, and even arbitrary argument lists. More about defining functions in Python 3"
+32,https://www.python.org/,1
+33,https://www.python.org/,2
+34,https://www.python.org/,3
+35,https://www.python.org/,4
+36,https://www.python.org/,5
+37,https://www.python.org/,Python is a programming language that lets you work quickly
+38,https://www.python.org/,and integrate systems more effectively. Learn More
+39,https://www.python.org/,"🐍⚡Support Python for everyone by grabbing a 30% discount on PyCharm- ALL proceeds go to the Python Software Foundation. Offer ends soon, so grab it today!   GET 30% OFF PYCHARM"
+40,https://www.python.org/,Get Started
+41,https://www.python.org/,"Whether you're new to programming or an experienced developer, it's easy to learn and use Python."
+42,https://www.python.org/,Start with our Beginner’s Guide
+43,https://www.python.org/,Download
+44,https://www.python.org/,Python source code and installers are available for download for all versions!
+45,https://www.python.org/,Latest: Python 3.14.0
+46,https://www.python.org/,Docs
+47,https://www.python.org/,"Documentation for Python's standard library, along with tutorials and guides, are available online."
+48,https://www.python.org/,docs.python.org
+49,https://www.python.org/,Jobs
+50,https://www.python.org/,Looking for work or have a Python related position that you're trying to hire for? Our relaunched community-run job board is the place to go.
+51,https://www.python.org/,jobs.python.org
+52,https://www.python.org/,Latest News
+53,https://www.python.org/,More
+54,https://www.python.org/,2025-11-25
+55,https://www.python.org/,PSF Code of Conduct Working Group Shares First Transparency Report
+56,https://www.python.org/,2025-11-24
+57,https://www.python.org/,Python is for Everyone: Grab PyCharm Pro for 30% off—plus a special bonus!
+58,https://www.python.org/,2025-11-19
+59,https://www.python.org/,Python 3.15.0 alpha 2
+60,https://www.python.org/,2025-11-12
+61,https://www.python.org/,Python is for everyone: Join in the PSF year-end fundraiser & membership drive!
+62,https://www.python.org/,2025-11-04
+63,https://www.python.org/,Connecting the Dots: Understanding the PSF’s Current Financial Outlook
+64,https://www.python.org/,Upcoming Events
+65,https://www.python.org/,More
+66,https://www.python.org/,2026-01-14
+67,https://www.python.org/,Python Meeting Düsseldorf
+68,https://www.python.org/,2026-01-22
+69,https://www.python.org/,Python Leiden User Group
+70,https://www.python.org/,2026-01-31
+71,https://www.python.org/,Python Devroom @ FOSDEM 2026
+72,https://www.python.org/,2026-02-20
+73,https://www.python.org/,PyCon Namibia 2026
+74,https://www.python.org/,2026-03-20
+75,https://www.python.org/,PyCascades 2026
+76,https://www.python.org/,Success Stories
+77,https://www.python.org/,More
+78,https://www.python.org/,Python's convenience has made it the most popular language for machine learning and artificial intelligence. Python's flexibility has allowed Anyscale to make ML/AI scalable from laptops to clusters.
+79,https://www.python.org/,Python provides convenience and flexibility for scalable ML/AI by Dean Wampler
+80,https://www.python.org/,Use Python for…
+81,https://www.python.org/,More
+82,https://www.python.org/,"Web Development: Django, Pyramid, Bottle, Tornado, Flask, Litestar, web2py"
+83,https://www.python.org/,"GUI Development: tkInter, PyGObject, PyQt, PySide, Kivy, wxPython, DearPyGui"
+84,https://www.python.org/,"Scientific and Numeric: SciPy, Pandas, IPython"
+85,https://www.python.org/,"Software Development: Buildbot, Trac, Roundup"
+86,https://www.python.org/,"System Administration: Ansible, Salt, OpenStack, xonsh"
+87,https://www.python.org/,>>> Python Software Foundation
+88,https://www.python.org/,"The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers. Learn more"
+89,https://www.python.org/,Become a Member Donate to the PSF
+90,https://www.python.org/,About
+91,https://www.python.org/,Applications
+92,https://www.python.org/,Quotes
+93,https://www.python.org/,Getting Started
+94,https://www.python.org/,Help
+95,https://www.python.org/,Python Brochure
+96,https://www.python.org/,Downloads
+97,https://www.python.org/,All releases
+98,https://www.python.org/,Source code
+99,https://www.python.org/,Windows
+100,https://www.python.org/,macOS
+101,https://www.python.org/,Android
+102,https://www.python.org/,Other Platforms
+103,https://www.python.org/,License
+104,https://www.python.org/,Alternative Implementations
+105,https://www.python.org/,Documentation
+106,https://www.python.org/,Docs
+107,https://www.python.org/,Audio/Visual Talks
+108,https://www.python.org/,Beginner's Guide
+109,https://www.python.org/,Developer's Guide
+110,https://www.python.org/,FAQ
+111,https://www.python.org/,Non-English Docs
+112,https://www.python.org/,PEP Index
+113,https://www.python.org/,Python Books
+114,https://www.python.org/,Python Essays
+115,https://www.python.org/,Community
+116,https://www.python.org/,Diversity
+117,https://www.python.org/,Mailing Lists
+118,https://www.python.org/,IRC
+119,https://www.python.org/,Forums
+120,https://www.python.org/,PSF Annual Impact Report
+121,https://www.python.org/,Python Conferences
+122,https://www.python.org/,Special Interest Groups
+123,https://www.python.org/,Python Logo
+124,https://www.python.org/,Python Wiki
+125,https://www.python.org/,Code of Conduct
+126,https://www.python.org/,Community Awards
+127,https://www.python.org/,Get Involved
+128,https://www.python.org/,Shared Stories
+129,https://www.python.org/,Success Stories
+130,https://www.python.org/,Arts
+131,https://www.python.org/,Business
+132,https://www.python.org/,Education
+133,https://www.python.org/,Engineering
+134,https://www.python.org/,Government
+135,https://www.python.org/,Scientific
+136,https://www.python.org/,Software Development
+137,https://www.python.org/,News
+138,https://www.python.org/,Python News
+139,https://www.python.org/,PSF Newsletter
+140,https://www.python.org/,PSF News
+141,https://www.python.org/,PyCon US News
+142,https://www.python.org/,News from the Community
+143,https://www.python.org/,Events
+144,https://www.python.org/,Python Events
+145,https://www.python.org/,User Group Events
+146,https://www.python.org/,Python Events Archive
+147,https://www.python.org/,User Group Events Archive
+148,https://www.python.org/,Submit an Event
+149,https://www.python.org/,Contributing
+150,https://www.python.org/,Developer's Guide
+151,https://www.python.org/,Issue Tracker
+152,https://www.python.org/,python-dev list
+153,https://www.python.org/,Core Mentorship
+154,https://www.python.org/,Report a Security Issue
+155,https://www.python.org/,Help & General Contact
+156,https://www.python.org/,Diversity Initiatives
+157,https://www.python.org/,Submit Website Bug
+158,https://www.python.org/,Status
+159,https://www.python.org/,Copyright ©2001-2025.  Python Software Foundation  Legal Statements  Privacy Notice

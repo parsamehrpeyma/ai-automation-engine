@@ -78,6 +78,11 @@ def summarize_text(text: str) -> str:
     if len(text) < 20:
         return text
 
+    # محدود کردن به مثلا 4000 کاراکتر برای سرعت و پایدار بودن
+    MAX_INPUT_CHARS = 4000
+    if len(text) > MAX_INPUT_CHARS:
+        text = text[:MAX_INPUT_CHARS]
+
     if summarizer_en is not None and is_mostly_english(text):
         try:
             result = summarizer_en(
@@ -91,6 +96,7 @@ def summarize_text(text: str) -> str:
             return simple_summary(text)
 
     return simple_summary(text)
+
 def analyze_sentiment(text: str) -> dict:
     """
     اگر متن عمدتاً انگلیسی باشد و مدل در دسترس باشد → از مدل استفاده می‌کنیم.

@@ -1,173 +1,268 @@
-📌 Automation API — Text & Document AI Service
+A Modern FastAPI Backend for Web Scraping, AI-Powered Text Processing, Job Analysis, and Automation Pipelines
+⭐ Overview
 
-A production-grade FastAPI service designed for text processing, document automation, NLP-based operations, and AI-assisted analysis.
+AI Automation Engine is a powerful backend system built with Python, FastAPI, Playwright, and modern AI/NLP tools.
+It provides automated solutions for:
 
-This project showcases expertise in modern Python backend development, FastAPI, asynchronous programming, and AI-powered automation workflows — all essential skills for high-level engineering roles in Europe (Norway, Switzerland, Netherlands) and global tech companies.
+Web scraping
+
+Data extraction
+
+Text cleaning
+
+AI summarization
+
+Keyword extraction
+
+Sentiment analysis
+
+Job posting analysis
+
+CSV/JSON report generation
+
+This project is designed for business automation, data analysis, AI workflows, and job-market intelligence — making it ideal for startups, researchers, and professionals needing clean data fast.
 
 🚀 Features
-✔ Text Processing
+✅ 1. Web Scraping Engine
 
-Text cleaning & normalization
+Built on Playwright for high-accuracy scraping
 
-Character & word statistics
+Extracts readable text from any public URL
 
-NLP-ready cleaned output
+Exports to CSV with line indexing + full URL tracking
 
-✔ AI-Powered Tools
+✅ 2. AI Text Processing Suite
 
-Text Summarization (HuggingFace Transformers)
+Summarization
 
-Machine Translation (Google Translate API)
+Translation
 
-Automatic Joke Generator (public API, async safe)
+Keyword extraction
 
-✔ File Handling & Automation
+Text cleaning
 
-Upload and analyze TXT files
+Language detection
 
-Upload and extract text from PDF documents
+✅ 3. Job Analyzer (AI-Powered)
 
-Auto-generated structured reports:
+Extracts insights from job postings:
 
-TXT
+Required skills
 
-JSON
+Tech stack
 
-CSV
+Languages
 
-✔ Logging & Monitoring
+Summary
 
-Request logging (requests.log)
+“Job fit score” (custom algorithm)
 
-Structured JSON logging (requests.jsonl)
+Perfect for building an automated job-hunting system for Europe.
 
-Auto-generated timestamped reports
+✅ 4. Data Reporting Tools
 
-🧠 Tech Stack
-Component	Technology
-Backend Framework	FastAPI
-Language	Python 3.11+
-AI / NLP	Transformers, Torch CPU, HuggingFace
-Logging	Built-in Python logging + JSONL logging
-File Processing	PyPDF2
-API Testing	cURL, Swagger UI, ReDoc
-Environment	venv / requirements.txt
-🗂 Project Structure
-automation_project/
+Generates:
+
+TXT reports
+
+JSON reports
+
+CSV files
+with metadata + joke-of-the-day API fun integration 😄
+
+✅ 5. REST API with Swagger UI
+
+Automatic documentation at:
+
+http://127.0.0.1:8000/docs
+
+📁 Project Structure
+ai-automation-engine/
 │
-├── api.py               # Main API (FastAPI app)
-├── main.py              # Standalone runner script
-├── requirements.txt     # Dependencies
+├── api.py                → FastAPI backend (main application)
+├── tools/                → All utilities
+│   ├── scraper.py        → Basic scraper
+│   ├── scraper_playwright.py → Playwright scraper
+│   ├── cleaner.py        → Text cleaner
+│   ├── ai_tools.py       → Summary, translation, NLP
+│   ├── text_stats.py     → Word/character count
+│   ├── job_analyzer.py   → Job analysis pipeline
+│   ├── sentiment.py      → Sentiment analysis engine
+│   ├── report_generator.py → TXT/JSON/CSV report creators
+│   ├── logger.py         → Request logger
+│   └── json_logger.py    → JSON-based logger
 │
-├── tools/
-│   ├── ai_tools.py      # Summarization & translation AI
-│   ├── cleaner.py       # Text cleaning engine
-│   ├── text_stats.py    # Word/char statistics
-│   ├── joke_api.py      # External joke integration
-│   ├── report_generator.py  # TXT/CSV/JSON report builder
-│   ├── logger.py            # Request logger
-│   ├── json_logger.py       # JSONL logger
-│   └── clean_names.py       # Utilities
+├── data/                 → Auto-generated reports + CSV files
 │
-├── data/                # Input samples
-├── logs/                # Request logs
-├── reports/             # Generated reports
-└── README.md
+├── README.md             → (This File)
+└── requirements.txt      → Dependencies
 
-⚙️ Setup & Installation
-1️⃣ Clone the repository
-git clone https://github.com/parsamehrpeyma/automation_project.git
-cd automation_project
+🔧 Installation
 
-2️⃣ Create virtual environment
+Clone the project:
+
+git clone https://github.com/YOUR_USERNAME/ai-automation-engine.git
+cd ai-automation-engine
+
+
+Create a virtual environment:
+
 python -m venv venv
 
-3️⃣ Activate it
+
+Activate it:
 
 Windows:
 
 venv\Scripts\activate
 
-4️⃣ Install dependencies
+
+Install dependencies:
+
 pip install -r requirements.txt
 
-▶️ Run the API
+
+Install Playwright:
+
+playwright install
+
+
+Run the API:
+
 uvicorn api:app --reload
 
 
-Server runs on:
-👉 http://127.0.0.1:8000
+Open your browser:
 
-Swagger UI:
-👉 http://127.0.0.1:8000/docs
+http://127.0.0.1:8000/docs
 
-ReDoc:
-👉 http://127.0.0.1:8000/redoc
+🧠 Endpoints Overview
+🔹 1. Web Scraping
 
-🧪 Example API Calls
-✔ Process Text
-curl -X GET "http://127.0.0.1:8000/process?text=Hello+World"
+POST /scrape_url
+Scrapes readable text using Playwright.
 
-✔ Summarize Text
-curl -X POST "http://127.0.0.1:8000/summarize" \
-  -H "Content-Type: application/json" \
-  -d "{\"text\":\"Artificial intelligence is transforming global industries...\"}"
+POST /scrape_to_csv
+Exports full text into a structured CSV file.
 
-✔ Translate Text
-curl -X POST "http://127.0.0.1:8000/translate" \
-  -H "Content-Type: application/json" \
-  -d "{\"text\":\"سلام دنیا\", \"target_lang\":\"en\"}"
+🔹 2. AI Text Tools
 
-✔ Upload PDF
+POST /summarize
+POST /translate
+POST /ai_report
 
-Use Swagger UI → /upload_pdf
+🔹 3. URL Intelligence
 
-🎯 Why This Project Matters (For Hiring Managers)
+POST /analyze_url_ai
+Summaries, keywords, translations, stats.
 
-This API demonstrates:
+🔹 4. Job Market Tools
 
-🔥 Production-level backend engineering:
+POST /analyze_job
+Extracts skills, languages, and job-fit score.
 
-Clean code architecture
+🔹 5. Sentiment Analysis
 
-Modular tools & reusable components
+POST /sentiment_ai
+Language-aware sentiment detection.
 
-Error handling + logging + reporting
+📊 Example: CSV Output (scrape_to_csv)
+index	url	line
+1	https://www.python.org
+	Welcome to Python.org
+2	https://www.python.org
+	Get started with Python
+...	...	...
 
-RESTful, well-documented endpoints
+CSV is generated in:
 
-🔥 Real AI/NLP integration:
+/data/scrape_<uuid>.csv
 
-Working with HuggingFace models
+🤖 Use Cases
+🔥 For Businesses
 
-Pipeline optimization (CPU-friendly)
+Competitor analysis
 
-Automatic summarization & translation
+SEO content extraction
 
-🔥 Automation mindset:
+Automated reporting
 
-Converting text → structured data
+Blog/article scraping
 
-Turning documents into machine-readable reports
+🔥 For Researchers
 
-Programmatic workflows
+Dataset collection
 
-This is a practical, resume-ready project fully aligned with backend engineering and AI-automation roles in Europe and global companies.
+NLP preprocessing
 
-🧩 Future Improvements (Planned)
+Text analysis
 
-JWT Authentication
+🔥 For Job Seekers
 
-Docker deployment
+Auto-analyze job postings
 
-CI/CD pipeline (GitHub Actions)
+Extract required skills
 
-Redis caching for AI models
+Compare opportunities
 
-Frontend dashboard (React/Vue)
+🔥 For Developers
 
-👤 Author
+Backend automation
 
-Parsa Mehrpeyma
-Python Developer • AI Automation Engineer
-GitHub: https://github.com/parsamehrpeyma
+AI-powered workflows
+
+Custom FastAPI services
+
+🧩 Skills Demonstrated (Great for Resume/Migration)
+
+This project shows hands-on experience with:
+
+Python
+
+FastAPI
+
+Playwright
+
+Web Scraping
+
+NLP
+
+AI summarization
+
+API design
+
+Automation engineering
+
+Data processing
+
+Backend architecture
+
+Text analytics
+
+CSV/JSON pipelines
+
+Perfect for applications to:
+
+🇨🇭 Switzerland
+🇳🇴 Norway
+🇸🇪 Sweden
+🇩🇰 Denmark
+🇩🇪 Germany
+🇳🇱 Netherlands
+🇬🇧 UK
+
+📈 Future Enhancements
+
+Add caching system
+
+Add frontend dashboard
+
+Add OAuth login
+
+Add scheduled job radar automation
+
+Deploy to cloud (Render / Railway / AWS)
+
+📜 License
+
+MIT License
